@@ -1,0 +1,12 @@
+Steps:
+1. uv env
+2. .venv\Scripts\activate
+ 
+** For installing something, command: uv pip install "the thing you want to install"
+
+** For building project, command: django-admin startproject "project-name"
+
+** For run project, command: python manage.py runserver
+
+**   User ----sends req---> urls.py -------> views.py ---|
+       ^\---------(views.py returns res to user)---------|
